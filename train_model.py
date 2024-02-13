@@ -1,5 +1,5 @@
 """
-Code for Problem 1 of HW 3.
+Code for Problem 1 of HW 2.
 """
 import pickle
 from typing import Any, Dict
