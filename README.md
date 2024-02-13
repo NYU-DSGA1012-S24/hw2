@@ -67,7 +67,7 @@ The point values for each problem are given below.
 
 ### Rubric for Code Problems
 
-Code questions for Problems 1 and 2 will be graded using a series of [Python unit tests](https://realpython.com/python-testing/). Each
+Code questions will be graded using a series of [Python unit tests](https://realpython.com/python-testing/). Each
 function you implement will be tested on a number of randomly generated inputs, which will match the specifications
 described in the function docstrings. **You will be able to see the results of the unit tests on
 [Gradescope](https://www.gradescope.com) as soon as the unit tests are released.** Therefore, you are encouraged to debug and resubmit your code if one or more unit tests fail.
@@ -83,8 +83,7 @@ bugs or other mistakes in your code. All code problems will be graded **as if al
 correctly**. Therefore, an incorrect implementation of one function should (in theory) not affect your grade on other
 problems that depend on that function.
 
-Code questions for Problem 3 will be graded via a combination of automated tests and manual inspection. Unit tests 
-may or may not be available at submission time.
+
 
 ### Rubric for Written Problems
 
