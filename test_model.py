@@ -13,7 +13,7 @@ from train_model import preprocess_dataset
 
 def init_tester(directory: str) -> Trainer:
     """
-    Prolem 1f: Implement this function.
+    Prolem 2b: Implement this function.
 
     Creates a Trainer object that will be used to test a fine-tuned
     model on the IMDb test set. The Trainer should fulfill the criteria
@@ -23,7 +23,7 @@ def init_tester(directory: str) -> Trainer:
         saved
     :return: A Trainer used for testing
     """
-    raise NotImplementedError("Problem 1f has not been completed yet!")
+    raise NotImplementedError("Problem 2b has not been completed yet!")
 
 
 if __name__ == "__main__":  # Use this script to test your model

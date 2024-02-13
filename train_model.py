@@ -30,7 +30,7 @@ def preprocess_dataset(dataset: Dataset, tokenizer: BertTokenizerFast) \
 def init_model(trial: Any, model_name: str, use_bitfit: bool = False) -> \
         BertForSequenceClassification:
     """
-    Problem 1e: Implement this function.
+    Problem 2a: Implement this function.
 
     This function should be passed to your Trainer's model_init keyword
     argument. It will be used by the Trainer to initialize a new model
@@ -46,13 +46,13 @@ def init_model(trial: Any, model_name: str, use_bitfit: bool = False) -> \
         than bias terms
     :return: A newly initialized pre-trained Transformer classifier
     """
-    raise NotImplementedError("Problem 1e has not been completed yet!")
+    raise NotImplementedError("Problem 2a has not been completed yet!")
 
 
 def init_trainer(model_name: str, train_data: Dataset, val_data: Dataset,
                  use_bitfit: bool = False) -> Trainer:
     """
-    Prolem 1f: Implement this function.
+    Prolem 2b: Implement this function.
 
     Creates a Trainer object that will be used to fine-tune a BERT-tiny
     model on the IMDb dataset. The Trainer should fulfill the criteria
@@ -66,12 +66,12 @@ def init_trainer(model_name: str, train_data: Dataset, val_data: Dataset,
         than bias terms
     :return: A Trainer used for training
     """
-    raise NotImplementedError("Problem 1f has not been completed yet!")
+    raise NotImplementedError("Problem 2b has not been completed yet!")
 
 
 def hyperparameter_search_settings() -> Dict[str, Any]:
     """
-    Problem 1g: Implement this function.
+    Problem 2c: Implement this function.
 
     Returns keyword arguments passed to Trainer.hyperparameter_search.
     Your hyperparameter search must satisfy the criteria listed in the
@@ -79,7 +79,7 @@ def hyperparameter_search_settings() -> Dict[str, Any]:
 
     :return: Keyword arguments for Trainer.hyperparameter_search
     """
-    raise NotImplementedError("Problem 1g has not been completed yet!")
+    raise NotImplementedError("Problem 2c has not been completed yet!")
 
 
 if __name__ == "__main__":  # Use this script to train your model
