@@ -30,8 +30,7 @@ libraries, you will need the following dependencies:
 * [🤗 Transformers](https://huggingface.co/docs/transformers/index)
 * [🤗 Evaluate](https://huggingface.co/docs/evaluate/index)
 
-These dependencies need to be installed on HPC, and you are encouraged to install them on your personal computer as
-well. Please refer to their websites for installation instructions.
+Please refer to their websites for installation instructions.
 
 ## Submission
 
